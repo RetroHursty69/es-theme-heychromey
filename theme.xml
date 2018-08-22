@@ -1,0 +1,253 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>4</formatVersion>
+
+<feature supported="carousel">
+   <view name="system">
+      <carousel name="systemcarousel">
+        <zIndex>41</zIndex>       
+        <type>horizontal</type>
+        <pos>0.0 0.02</pos>
+        <size>1.0 1.0</size>
+        <logoScale>1.6</logoScale>
+        <logoSize>0.3 0.3</logoSize>
+        <color>00000000</color>
+        <maxLogoCount>5</maxLogoCount>
+      </carousel>
+
+      <text name="systemInfo">
+         <pos>0.0 0.78</pos>
+         <backgroundColor>00000000</backgroundColor>
+         <color>F6F6F6</color>
+         <fontPath>./_inc/fonts/impact.ttf</fontPath>
+	     <fontSize>0.03</fontSize>
+      </text>
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <zIndex>40</zIndex>         
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/images/mainbackground.png</path>
+      </image>              
+   </view>
+</feature>
+
+   <view name="basic,detailed,video">
+      <helpsystem name="help">
+         <textColor>F6F6F6</textColor>
+         <iconColor>F6F6F6</iconColor>
+         <fontSize>0.02</fontSize> 
+         <pos>0.5 0.95</pos>                         
+      </helpsystem>
+   </view>
+   
+   <view name="system">
+      <helpsystem name="help">
+         <textColor>F6F6F6</textColor>
+         <iconColor>F6F6F6</iconColor>
+         <fontSize>0.03</fontSize>
+         <pos>0.3 0.95</pos>                     
+      </helpsystem>
+   </view>   
+
+   <view name="basic,detailed,video">
+      <textlist name="gamelist">
+         <pos>0.1875 0.175</pos>
+         <size>0.45 0.675</size>
+         <selectorColor>1c1c1c00</selectorColor>
+         <selectedColor>000099</selectedColor>
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+         <fontPath>./_inc/fonts/impact.ttf</fontPath>
+         <fontSize>0.04</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <scrollSound></scrollSound>
+         <alignment>center</alignment>
+      </textlist>
+   </view>
+
+   <view name="basic">
+      <image name="logo">
+         <origin>0.5 0.5</origin>
+         <pos>0.705 0.515</pos>
+         <maxSize>0.32 0.32</maxSize>
+      </image>
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/images/backgroundbasic.png</path>
+      </image>
+      <textlist name="gamelist">
+         <pos>0.13 0.03</pos>
+         <size>0.22 0.95</size>
+         <alignment>left</alignment>
+      </textlist>
+   </view>
+
+   <view name="detailed">
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/images/backgroundvideo.png</path>
+      </image>
+      <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed">
+         <pos>1 1</pos>
+      </text>
+      <text name="md_lbl_rating,md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount,md_lbl_players,md_developer, md_publisher, md_genre, md_playcount, md_lastplayed,md_description,md_players,md_releasedate">
+         <color>FFFFFF</color>
+         <fontPath>./_inc/fonts/impact.ttf</fontPath>
+         <fontSize>0.0195</fontSize>
+      </text>
+      <text name="md_lbl_rating">
+         <pos>1.77 0.375</pos>
+         <size>0.0625 0.025</size>
+      </text>
+      <rating name="md_rating">
+         <pos>0.744 0.152</pos>
+         <size>0.05 0.05</size>
+         <filledPath>./_inc/images/star_filled.png</filledPath>
+         <unfilledPath>./_inc/images/star_empty.png</unfilledPath>
+      </rating>
+      <text name="md_lbl_players">
+         <pos>1.775 0.175</pos>
+         <size>0.0625 0.025</size>
+         <color>000000</color>         
+      </text>
+      <text name="md_players">
+         <pos>1.775 0.2</pos>
+         <size>0.0375 0.025</size>         
+      </text>
+      <text name="md_lbl_releasedate">
+         <pos>1.87 0.175</pos>
+         <size>0.0625 0.025</size>
+         <color>000000</color>         
+      </text>
+      <datetime name="md_releasedate">
+         <pos>1.87 0.2</pos>
+         <size>0.075 0.025</size>
+      </datetime>
+      <text name="md_lbl_genre">
+         <pos>1.775 0.23</pos>
+         <size>0.0625 0.025</size>
+         <color>000000</color>         
+      </text>
+      <text name="md_genre">
+         <pos>1.775 0.255</pos>
+         <size>0.19 0.025</size>
+      </text>
+      <text name="md_description">
+         <pos>1.44 0.55</pos>
+         <size>0.525 0.29</size>
+         <color>FFFFFF</color>
+      </text>
+      <textlist name="gamelist">
+         <pos>0.13 0.03</pos>
+         <size>0.22 0.95</size>
+         <alignment>left</alignment>
+      </textlist>
+   </view>
+   
+   <view name="video">
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/images/backgroundvideo.png</path>
+      </image>
+      <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed">
+         <pos>1 1</pos>
+      </text>
+      <text name="md_lbl_rating,md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount,md_lbl_players,md_developer, md_publisher, md_genre, md_playcount, md_lastplayed,md_description,md_players,md_releasedate">
+         <color>FFFFFF</color>
+         <fontPath>./_inc/fonts/impact.ttf</fontPath>
+         <fontSize>0.0195</fontSize>
+      </text>
+      <text name="md_lbl_rating">
+         <pos>1.77 0.375</pos>
+         <size>0.0625 0.025</size>
+      </text>
+      <rating name="md_rating">
+         <pos>1.77 0.4</pos>
+         <size>0.005 0.025</size>
+         <filledPath>./_inc/images/star_filled.svg</filledPath>
+         <unfilledPath>./_inc/images/star_empty.svg</unfilledPath>
+      </rating>
+      <text name="md_lbl_players">
+         <pos>1.775 0.175</pos>
+         <size>0.0625 0.025</size>
+         <color>000000</color>         
+      </text>
+      <text name="md_players">
+         <pos>1.775 0.2</pos>
+         <size>0.0375 0.025</size>         
+      </text>
+      <text name="md_lbl_releasedate">
+         <pos>1.87 0.175</pos>
+         <size>0.0625 0.025</size>
+         <color>000000</color>         
+      </text>
+      <datetime name="md_releasedate">
+         <pos>1.87 0.2</pos>
+         <size>0.075 0.025</size>
+      </datetime>
+      <text name="md_lbl_genre">
+         <pos>1.775 0.23</pos>
+         <size>0.0625 0.025</size>
+         <color>000000</color>         
+      </text>
+      <text name="md_genre">
+         <pos>1.775 0.255</pos>
+         <size>0.19 0.025</size>
+      </text>
+      <text name="md_description">
+         <pos>1.44 0.55</pos>
+         <size>0.525 0.29</size>
+         <color>FFFFFF</color>
+      </text>
+      <textlist name="gamelist">
+         <pos>0.13 0.03</pos>
+         <size>0.22 0.95</size>
+         <alignment>left</alignment>
+      </textlist>
+   </view>   
+
+
+   <view name="detailed">
+      <image name="logo">
+         <origin>0.5 0.05</origin>
+         <pos>0.589 0.052</pos>
+         <maxSize>0.32 0.32</maxSize>
+      </image>
+      <image name="md_image">
+         <origin>0.5 0.5</origin>
+         <pos>0.7 0.575</pos>
+         <maxSize>0.37 0.37</maxSize>
+      </image>
+   </view>
+
+   <view name="video">
+      <image name="logo">
+         <origin>0.5 0.05</origin>
+         <pos>0.589 0.052</pos>
+         <maxSize>0.32 0.32</maxSize>
+      </image>
+      <video name="md_video">
+         <origin>0.5 0.5</origin>
+         <pos>0.7 0.575</pos>
+         <maxSize>0.37 0.37</maxSize>
+         <delay>1.00</delay>
+         <showSnapshotNoVideo>true</showSnapshotNoVideo>
+         <showSnapshotDelay>true</showSnapshotDelay>
+      </video>
+      <image name="md_marquee">
+         <pos>0.765 0.141</pos>
+         <origin>0 0</origin>
+         <maxSize>0.1 0.1</maxSize>
+      </image>
+   </view>
+   
+</theme>
