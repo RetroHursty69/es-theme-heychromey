@@ -193,8 +193,8 @@
       </image>
       <video name="md_video">
          <origin>0.5 0.5</origin>
-         <pos>0.59 0.55</pos>
-         <maxSize>0.37 0.37</maxSize>
+         <pos>0.587 0.55</pos>
+         <maxSize>0.35 0.35</maxSize>
          <delay>1.00</delay>
          <showSnapshotNoVideo>true</showSnapshotNoVideo>
          <showSnapshotDelay>true</showSnapshotDelay>
